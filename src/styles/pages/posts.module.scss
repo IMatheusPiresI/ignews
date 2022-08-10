@@ -1,0 +1,23 @@
+.post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+
+    &__view {
+        padding: 1.5em 0em;
+        border-bottom: 1px solid var(--gray-700);
+
+        & time {
+            color: var(--gray-300);
+        }
+
+        & h2 {
+            margin: .5em 0em;
+            color: var(--gray-100);
+        }
+
+        & p {
+            color: var(--gray-100);
+        }
+    }
+}

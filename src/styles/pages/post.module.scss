@@ -1,0 +1,74 @@
+.post {
+    max-width: 785px;
+    margin: 0 auto;
+
+    &__container {
+        padding: 4rem 2rem;
+
+        & p {
+            margin: 10px 0px;
+        }
+
+        & h1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        & h2 {
+            font-size: 1.8rem;
+        }
+
+        & h3 {
+            font-size: 1.2rem;
+        }
+
+        & h2,h3 {
+            margin: 1rem 0rem;
+        }
+
+        & p {
+            line-height: 1.3rem;
+        }
+
+        & ul {
+            margin-left: 4rem;
+            margin: 2rem  0rem 0rem  4rem;
+        }
+
+        &__content{
+            margin-top: 3rem;
+        }
+    }
+
+    .previewContent {
+        background: linear-gradient(var(--gray-100), transparent);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .previewLogIn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        background-color: var(--gray-700);
+        border-radius: 2rem;
+        padding: 1rem 2rem;
+
+        & p {
+            display: inline-block;
+        }
+
+        & button {
+            font-size: 1.2rem;
+            background-color: transparent;
+            border: none;
+            color: var(--yellow-500);
+            margin-left: 1rem;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

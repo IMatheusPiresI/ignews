@@ -1,0 +1,29 @@
+.home {
+    max-width: 1120px;
+    padding: 0 2em;
+    min-height: calc(100vh - 5.1rem);
+    margin: 0 auto;
+
+    &__content {
+        display: flex;
+        min-height: inherit;
+        align-items: center;
+        justify-content: space-between;
+
+        &__text {
+            & h3 {
+                font-size: 2rem;
+            }
+    
+            & h1 {
+                font-size: 5rem;
+                margin: 2rem 0rem;
+                & span {
+                    color: var(--cyan-500);
+                }
+            }
+        }
+
+       
+    }
+}
